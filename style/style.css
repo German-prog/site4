@@ -1,0 +1,32 @@
+body {
+    margin-right: 0px;
+}
+
+.block {
+    display: inline-block;
+    background: black;
+    color: white;
+    width: 40%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.block img {
+    object-fit: cover;
+}
+
+.blocked {
+    display: inline-block;
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1;
+    background: red;
+    color: white;
+    width: 420px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10 px;
+    padding-bottom: 15px;
+    border: 10px dashed green;
+    margin-top: 15px;
+}
