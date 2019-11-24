@@ -4,16 +4,38 @@ body {
 
 .block {
     display: inline-block;
-    background: black;
+    box-sizing:border-box;
+
+    background:rgb(54, 0, 180);
+    color:white;
+    background: #03a9f4;
+   
     color: white;
     width: 40%;
     margin-right: 20px;
     margin-top: 10px;
+    padding:40px;
+}
+/*.block div{
+
+
+}
+.block img {
+
 }
 
-.block img {
-    object-fit: cover;
+.block p{
+
+}*/
+
+.block-black{
+    background-color:black;
 }
+
+/*.block img {
+width:380;*
+height:280;*
+}*/
 
 .blocked {
     display: inline-block;
@@ -30,3 +52,42 @@ body {
     border: 10px dashed green;
     margin-top: 15px;
 }
+
+.header{
+padding:75px 0;
+margin-bottom:25px;
+}
+.nav{
+height:100%;
+width:45%;
+margin: 0 auto;
+display:inline-block;
+}
+.list{
+    margin:0;
+    padding:0;
+    height:100%;
+
+    margin:0 auto;
+
+}
+.list-item{
+    display:inline-block;
+}
+.list-link:hover{
+    /*text-transform: uppercase;
+    text-decoration: none;*/
+    color:white;
+    background:black;
+
+   /* padding:10px 15px;
+    background-color: green;*/
+
+
+}
+.list-link{
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
