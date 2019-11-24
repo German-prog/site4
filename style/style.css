@@ -27,6 +27,13 @@ body {
 .block p{
 
 }*/
+.block p{
+    text-align:center;
+}
+
+.block button{
+    text-align:center;
+}
 
 .block-black{
     background-color:black;
